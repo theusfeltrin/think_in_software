@@ -1,0 +1,132 @@
+{
+  "hero": {
+    "file": "// portfolio.ts",
+    "name": "Matheus T. Feltrin",
+    "role": "Full-Stack Developer",
+    "description": "Building scalable backend systems, RESTful APIs, and data processing pipelines. Solving complex problems with clean and efficient code.",
+    "techStack": "// tech stack",
+    "ctaPortfolio": "View Portfolio",
+    "ctaContact": "Contact Me"
+  },  
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "about": {
+    "section": "about me",
+    "title": "README",
+    "intro": [
+      "Backend Engineer with 5+ years of experience",
+      "Specializing in scalable distributed systems"
+    ],
+    "p1": "I build <accent>high-performance</accent> backend systems using <keyword>microservices</keyword> and <number>RESTful APIs</number>.",
+    "p2": "With experience across Node.js, Go, and Python, I've delivered solutions handling millions of requests daily. I'm passionate about clean code, system design, and building developer-friendly tools.",
+    "expertise": [
+      "API Development",
+      "Database Optimization",
+      "Cloud Infrastructure",
+      "System Architecture"
+    ]
+  },
+  "process": {
+    "eyebrow": "Nosso processo",
+    "title": "Como transformamos ideias em software funcional.",
+    "steps": [
+      {
+        "title": "Descoberta & Estratégia",
+        "description": "Compreendemos suas necessidades, público-alvo e objetivos de negócio para definir a direção do produto."
+      },
+      {
+        "title": "Design & Prototipagem",
+        "description": "Criamos wireframes e protótipos interativos para validar conceitos e garantir uma experiência de usuário intuitiva."
+      },
+      {
+        "title": "Desenvolvimento & Implementação",
+        "description": "Construímos o software utilizando as melhores práticas de engenharia e tecnologias modernas."
+      },
+      {
+        "title": "Teste & Lançamento",
+        "description": "Realizamos testes rigorosos para garantir qualidade antes do lançamento oficial do produto."
+      },
+      {
+        "title": "Manutenção & Escala",
+        "description": "Oferecemos suporte contínuo e melhorias para garantir que o produto evolua conforme as necessidades do mercado."
+      }
+    ]
+  },
+  "tech": {
+    "eyebrow": "TECHNOLOGIES",
+    "title": "Team expertise to build robust digital solutions.",
+    "subtitle": "Technologies and tools that power our development ecosystem.",
+    "html": {
+      "name": "HTML",
+      "description": "Semantic markup for building modern interfaces."
+    },
+    "css": {
+      "name": "CSS",
+      "description": "Responsive styling and modern layouts."
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "description": "The core language of modern web development."
+    },
+    "react": {
+      "name": "React",
+      "description": "Reusable components and dynamic UI."
+    },
+    "nextjs": {
+      "name": "Next.js",
+      "description": "A powerful React framework with SSR and SSG."
+    },
+    "typescript": {
+      "name": "TypeScript",
+      "description": "Typed JavaScript for safer and scalable code."
+    },
+    "node": {
+      "name": "Node.js",
+      "description": "High-performance backend with JavaScript."
+    },
+    "nest": {
+      "name": "NestJS",
+      "description": "Modular and scalable architecture for robust APIs."
+    },
+    "go": {
+      "name": "Go",
+      "description": "A fast and concurrent programming language."
+    },
+    "python": {
+      "name": "Python",
+      "description": "Versatile for scripting, automation, and ML."
+    },
+    "reactNative": {
+      "name": "React Native",
+      "description": "Native mobile apps using JavaScript."
+    },
+    "flutter": {
+      "name": "Flutter",
+      "description": "High‑performance cross‑platform UI framework."
+    },
+    "expo": {
+      "name": "Expo",
+      "description": "Fast mobile development workflow built on React Native."
+    },
+    "postgres": {
+      "name": "PostgreSQL",
+      "description": "A powerful and reliable SQL database."
+    },
+    "mongodb": {
+      "name": "MongoDB",
+      "description": "Flexible NoSQL document database."
+    },
+    "mysql": {
+      "name": "MySQL",
+      "description": "Widely used and stable SQL database."
+    },
+    "docker": {
+      "name": "Docker",
+      "description": "Containers for portability and isolated environments."
+    }
+  }
+}

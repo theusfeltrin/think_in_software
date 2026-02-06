@@ -1,0 +1,145 @@
+{
+  "hero": {
+    "eyebrow": "Digital Product Studio",
+    "title": "Tirando ideias do papel/e levando ao software.",
+    "description": "Criamos MVPs, plataformas web e produtos digitais sob medida, ajudando você a transformar ideias em softwares reais e escaláveis.",
+    "cta_b1": "Comece um projeto",
+    "cta_b2": "Saiba mais"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Sobre",
+    "process": "Nosso Processo",
+    "tecnologies": "Tecnologias",
+    "contact": "Contato"
+  },
+  "about": {
+    "eyebrow": "Sobre nós",
+    "title": "Pensamos em software —/ não apenas em código.",
+    "subtitle": "Construído por engenheiros, guiado por produto.",
+    "paragraph1": "A Think In Software é um estúdio de produtos digitais focado na criação, evolução e escala de softwares. Trabalhamos lado a lado com empresas e fundadores para transformar ideias em soluções digitais confiáveis, sustentáveis e escaláveis.",
+    "paragraph2": "Do MVP (Mínimo Produto Viável) a plataformas de longo prazo, unimos pensamento de produto, engenharia e arquitetura limpa para entregar softwares que funcionam no mundo real.",
+    "cards": [
+      "Mentalidade orientada a produto",
+      "Do MVP à escala",
+      "Arquitetura limpa",
+      "Parcerias de longo prazo"
+    ]
+  },
+  "process": {
+    "eyebrow": "Nosso processo",
+    "title": "Como transformamos ideias em software funcional.",
+    "steps": [
+      {
+        "title": "Descoberta & Estratégia",
+        "description": "Compreendemos suas necessidades, público-alvo e objetivos de negócio para definir a direção do produto."
+      },
+      {
+        "title": "Design & Prototipagem",
+        "description": "Criamos wireframes e protótipos interativos para validar conceitos e garantir uma experiência de usuário intuitiva."
+      },
+      {
+        "title": "Desenvolvimento & Implementação",
+        "description": "Construímos o software utilizando as melhores práticas de engenharia e tecnologias modernas."
+      },
+      {
+        "title": "Teste & Lançamento",
+        "description": "Realizamos testes rigorosos para garantir qualidade antes do lançamento oficial do produto."
+      },
+      {
+        "title": "Manutenção & Escala",
+        "description": "Oferecemos suporte contínuo e melhorias para garantir que o produto evolua conforme as necessidades do mercado."
+      }
+    ]
+  },  
+  "tech": {
+    "eyebrow": "TECNOLOGIAS",
+    "title": "Expertises da equipe para construir soluções digitais robustas.",
+    "subtitle": "Tecnologias e ferramentas que fazem parte do nosso ecossistema de desenvolvimento.",
+    "html": {
+      "name": "HTML",
+      "description": "Marcação semântica para estruturar interfaces modernas."
+    },
+    "css": {
+      "name": "CSS",
+      "description": "Estilização responsiva e layouts dinâmicos."
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "description": "A linguagem base do desenvolvimento web moderno."
+    },
+    "react": {
+      "name": "React",
+      "description": "Componentes reutilizáveis e interfaces dinâmicas."
+    },
+    "nextjs": {
+      "name": "Next.js",
+      "description": "Framework React com SSR, SSG e alta performance."
+    },
+    "typescript": {
+      "name": "TypeScript",
+      "description": "JavaScript com tipagem estática para maior segurança."
+    },
+    "node": {
+      "name": "Node.js",
+      "description": "Backend performático com JavaScript."
+    },
+    "nest": {
+      "name": "NestJS",
+      "description": "Arquitetura modular e escalável para APIs robustas."
+    },
+    "go": {
+      "name": "Go",
+      "description": "Linguagem moderna focada em performance e concorrência."
+    },
+    "python": {
+      "name": "Python",
+      "description": "Versátil para scripts, automações e machine learning."
+    },
+    "reactNative": {
+      "name": "React Native",
+      "description": "Criação de apps móveis nativos com código JavaScript."
+    },
+    "flutter": {
+      "name": "Flutter",
+      "description": "Framework multiplataforma com UI de alta performance."
+    },
+    "expo": {
+      "name": "Expo",
+      "description": "Desenvolvimento mobile rápido com React Native."
+    },
+    "postgres": {
+      "name": "PostgreSQL",
+      "description": "Banco de dados SQL robusto e altamente confiável."
+    },
+    "mongodb": {
+      "name": "MongoDB",
+      "description": "Banco NoSQL flexível baseado em documentos."
+    },
+    "mysql": {
+      "name": "MySQL",
+      "description": "Banco SQL amplamente utilizado e estável."
+    },
+    "docker": {
+      "name": "Docker",
+      "description": "Contêineres para portabilidade e ambiente isolado."
+    }
+  },
+  "contact": {
+    "eyebrow": "CONTATO",
+    "title": "Vamos tirar sua ideia do papel",
+    "subtitle": "Conte um pouco sobre seu projeto e retornamos rapidamente.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "phone": "Telefone",
+      "message": "Conte sobre sua ideia",
+      "submit": "Enviar mensagem"
+    },
+    "channels": "Canais de atendimento",
+    "hours": {
+      "title": "Horário de atendimento",
+      "value": "Segunda a sexta, das 9h às 18h (GMT-3)"
+    }
+  }
+}

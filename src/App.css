@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/autoplay";
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 2s step-start infinite;
+}
+
+.tech-carousel .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+  opacity: 0.3;
+}
+
+.tech-carousel .swiper-slide-active {
+  opacity: 1;
+}
+
+.tech-carousel .swiper-slide:hover {
+  opacity: 1;
+}
+
+.tech-carousel .swiper-slide {
+  filter: grayscale(100%);
+}
+
+.tech-carousel .swiper-slide-active,
+.tech-carousel .swiper-slide:hover {
+  filter: grayscale(0%);
+}
