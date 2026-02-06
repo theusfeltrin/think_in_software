@@ -109,7 +109,7 @@ function TechCard({ tech, isActive, onToggle }: Props) {
   return (
     <button
       onClick={onToggle}
-      className="relative w-full h-36 md:h-40 focus:outline-none"
+      className="relative w-full h-36 md:h-40 focus:outline-none cursor-pointer"
       aria-label={label}
       style={{ perspective: 1000 }}
     >

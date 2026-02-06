@@ -1,75 +1,145 @@
-# React + TypeScript + Vite
+Think In Software — Institutional Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Turning ideas into real, scalable software.
 
-Currently, two official plugins are available:
+Este repositório contém o site institucional da Think In Software, uma Digital Product Studio focada em transformar ideias, visões e necessidades de negócio em produtos digitais bem projetados, escaláveis e sustentáveis.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O projeto foi pensado como uma one page application, com forte atenção a UX, mobile-first design e performance, servindo tanto como vitrine da empresa quanto como base técnica reutilizável.
 
-## React Compiler
+✨ Sobre a Think In Software
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+A Think In Software atua na criação de:
 
-## Expanding the ESLint configuration
+MVPs para validação rápida de ideias
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Plataformas web e aplicações mobile
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Evolução, manutenção e refatoração de sistemas existentes
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Produtos digitais proprietários (SaaS)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Nosso foco vai além do código: pensamos produto, fluxo, escalabilidade e experiência desde o início.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🧠 Conceitos do projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Este site foi desenvolvido seguindo alguns princípios claros:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-# think_in_software
-# think_in_software
+Mobile First — a experiência começa pelo mobile
+
+UX como diferencial técnico, não apenas visual
+
+Componentização e reutilização
+
+Storytelling: da ideia → processo → tecnologia → contato
+
+Clareza e objetividade, sem excesso de buzzwords
+
+🧱 Stack utilizada
+
+React + TypeScript
+
+Vite
+
+Tailwind CSS
+
+Framer Motion (animações)
+
+Swiper (quando aplicável)
+
+i18n (react-i18next) — suporte a múltiplos idiomas
+
+React Icons
+
+🌍 Internacionalização (i18n)
+
+O projeto suporta múltiplos idiomas desde a base.
+
+Idiomas atuais:
+
+🇧🇷 Português (pt-BR)
+
+🇺🇸 Inglês (en)
+
+Toda a UI é construída consumindo strings via i18n, inclusive cards, seções e microtextos.
+
+🧩 Estrutura de seções
+
+Hero — proposta de valor clara
+
+Sobre — posicionamento como Digital Product Studio
+
+Processo — timeline animada do fluxo de trabalho
+
+Tecnologias — cards interativos mobile-first
+
+Contato — formulário + canais diretos (WhatsApp / Instagram)
+
+🎨 Design & UX
+
+Design minimalista
+
+Ícones lineares
+
+Paleta principal:
+
+Roxo claro #943CC5
+
+Roxo escuro #311E44
+
+Branco e preto como base
+
+Animações suaves e funcionais (não decorativas)
+
+🚀 Como rodar o projeto localmente
+# clone o repositório
+git clone https://github.com/seu-usuario/think-in-software-site.git
+
+# entre no diretório
+cd think-in-software-site
+
+# instale as dependências
+npm install
+
+# rode o projeto
+npm run dev
+
+
+O projeto estará disponível em:
+
+http://localhost:5173
+
+📁 Organização do projeto (resumo)
+src/
+ ├─ assets/        # imagens, logos, ícones
+ ├─ components/    # componentes reutilizáveis
+ ├─ sections/      # seções da página
+ ├─ theme/         # tokens de cores e estilos
+ ├─ i18n/          # traduções
+ └─ pages/         # páginas (quando aplicável)
+
+📌 Status do projeto
+
+🟢 Em evolução contínua
+
+Este repositório é atualizado conforme:
+
+evolução da identidade da empresa
+
+novos serviços
+
+melhorias de UX e performance
+
+🤝 Contato
+
+Quer tirar uma ideia do papel?
+
+🌐 Website: https://think-in-software.vercel.app/
+
+📩 Email: em breve
+
+💬 WhatsApp / Instagram: ver seção de contato no site
+
+📄 Licença
+
+Este projeto é de uso institucional da Think In Software.
+O código pode servir como referência técnica, mas não deve ser reutilizado comercialmente sem autorização.
